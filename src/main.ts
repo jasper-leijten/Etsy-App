@@ -22,7 +22,7 @@ async function bootstrap() {
   const port = process.env.PORT || 3003;
 
   await app.listen(port, '0.0.0.0', function () {
-    console.log('Server started.......');
+    console.log('Server started....... on port: localhost:'+port+'/api');
   });
 }
 bootstrap();
