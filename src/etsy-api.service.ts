@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Etsy } from 'etsyjs';
+// import { Etsy } from 'etsyjs';
 @Injectable()
 //     secret: 'r4vyevxyv3',
 export class EtsyApiService {
